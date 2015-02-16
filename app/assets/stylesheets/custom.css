@@ -1,0 +1,71 @@
+
+.salespal { 
+    height: 20em;
+    width: 20em;
+    background: url('<%= asset_path("salespal.png") %>') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.portfolio-subtext {
+    line-height: 1.5em;
+}
+
+
+.tech-thumbnail {
+    height: 3em;
+    width: 3em;
+}
+
+.tech-thumbnail-stripe {
+    height: 2em;
+}
+
+.tech-thumbnail-aws {
+    height: 4em;
+}
+
+.site-link {
+    line-height: 1.5em;
+}
+
+a, a:focus, a:visited {
+    color: #3ea9f5;
+    transition: color 0.4s ease;
+    font-weight: bold;
+}
+
+a:focus, a:hover {
+    text-decoration: none !important;
+    color: #0e7ac4
+}
+
+.right-border {
+    border-bottom: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
+}
+
+.left-border {
+    border-bottom: 1px solid lightgrey;
+    border-left: 1px solid lightgrey;
+    opacity: 0.9;
+}
+
+.space-right {
+    margin-right: 1em;
+}
+
+img.img-responsive {
+    opacity: 0.9;
+    transition: opacity 0.4s ease;
+}
+
+img.img-responsive:hover {
+    opacity: 1.0;
+}
+
+
+
+
