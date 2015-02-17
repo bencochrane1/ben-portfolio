@@ -16,7 +16,7 @@ body {
 }
 
 .text-primary {
-    color: #fed136;
+    color: #fff;
 }
 
 p {
@@ -37,14 +37,14 @@ a.active {
 }
 
 a {
-    color: #fed136;
+    color: #fff;
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #fec503;
+    color: #fff;
 }
 
 h1,
@@ -70,12 +70,12 @@ h6 {
 }
 
 .btn-primary {
-    border-color: #fed136;
+    border-color: #fff;
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     color: #fff;
-    background-color: #fed136;
+    background-color: #fff;
 }
 
 .btn-primary:hover,
@@ -85,7 +85,7 @@ h6 {
 .open .dropdown-toggle.btn-primary {
     border-color: #f6bf01;
     color: #fff;
-    background-color: #fec503;
+    background-color: #fff;
 }
 
 .btn-primary:active,
@@ -109,25 +109,25 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #fff;
+    background-color: #fff;
 }
 
 .btn-primary .badge {
-    color: #fed136;
+    color: #fff;
     background-color: #fff;
 }
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #fed136;
+    border-color: #fff;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #fed136;
+    background-color: #fff;
 }
 
 .btn-xl:hover,
@@ -137,7 +137,7 @@ fieldset[disabled] .btn-primary.active {
 .open .dropdown-toggle.btn-xl {
     border-color: #f6bf01;
     color: #fff;
-    background-color: #fec503;
+    background-color: #fff;
 }
 
 .btn-xl:active,
@@ -161,12 +161,12 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #fff;
+    background-color: #fff;
 }
 
 .btn-xl .badge {
-    color: #fed136;
+    color: #fff;
     background-color: #fff;
 }
 
@@ -177,14 +177,14 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: 'Open Sans', sans-serif;
-    color: #fed136;
+    color: #fff;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #fec503;
+    color: #fff;
 }
 
 .navbar-default .navbar-collapse {
@@ -192,8 +192,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #fff;
+    background-color: #fff;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -202,7 +202,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #fed136;
+    background-color: #fff;
 }
 
 .navbar-default .nav li a {
@@ -216,19 +216,19 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #fed136;
+    color: #fff;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #fed136;
+    background-color: #fff;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #fec503;
+    background-color: #fff;
 }
 
 @media(min-width:768px) {
@@ -684,7 +684,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-    border-color: #fed136;
+    border-color: #fff;
     box-shadow: none;
 }
 
@@ -762,7 +762,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #fed136;
+    background-color: #fff;
 }
 
 .btn:focus,
@@ -850,12 +850,12 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #fed136;
+    background: #fff;
 }
 
 ::selection {
     text-shadow: none;
-    background: #fed136;
+    background: #fff;
 }
 
 img::selection {
@@ -867,5 +867,5 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #fed136;
+    webkit-tap-highlight-color: #fff;
 }

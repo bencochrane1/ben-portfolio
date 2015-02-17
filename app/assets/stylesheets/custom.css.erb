@@ -11,11 +11,6 @@ header {
     background-size: cover;
 }
 
-/*header {
-    background-color: #0e7ac4;
-}
-*/
-
 
 header {
     background-color: white;
@@ -82,7 +77,8 @@ img.img-responsive:hover {
 .navbar-brand.page-scroll {
     color: white;
     transition: color 0.2s ease;
-    font-family: 'Satisfy', cursive;
+    /*font-family: 'Satisfy', cursive;*/
+    /*text-transform: uppercase;*/
 }
 
 .navbar-brand.page-scroll:hover, .navbar-default .nav li a:hover, .navbar-default .nav li a:focus {
@@ -91,10 +87,11 @@ img.img-responsive:hover {
 
 
 a.page-scroll.btn.btn-xl {
-    background: none !important;
     border: 2px solid #3ea9f5;
+    color: #3ea9f5;
     transition: background-color 0.3s ease;
-    transition: color 0.3s ease;
+    transition: background-color 0.3s ease;
+    background: none;
 }
 
 a.page-scroll.btn.btn-xl:hover {
@@ -124,4 +121,46 @@ a.page-scroll.btn.btn-xl:hover {
 
 .list-inline.social-buttons.contact-social li a:hover {
     background-color: #0e7ac4;
+}
+
+
+.navbar.navbar-default.navbar-fixed-top {
+    background-color: #323A45;    
+}
+
+
+.section-subheading.text-muted.about-muted {
+    line-height: 1.5em;
+}
+
+.fa {
+    font-size: 2em;
+}
+
+ul.social-buttons li a {
+    height: 70px;
+    width: 70px;
+    line-height: 80px;
+}
+
+.section-heading.footer {
+    margin-bottom: 0.5em;
+}
+
+
+
+@media (max-width: 768px)  {
+
+    div.intro-heading {
+        font-size: 2em !important;
+    }
+
+    section#services {
+        margin-top: -7em !important;
+    }
+
+    .header-gap {
+        margin-top: 0.5em !important;
+    }
+
 }
